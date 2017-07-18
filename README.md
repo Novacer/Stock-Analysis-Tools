@@ -91,7 +91,7 @@ As an example, I will do machine learning on AAPL against the S&P 500 index. Jus
 
 ![ScreenShot](https://user-images.githubusercontent.com/29148427/28335613-db5e1c06-6bb3-11e7-9a6b-b314d6a11542.jpg)
 
-On the bottom left corner is the data spread. This is what the data actually looks like before we split it into testing and training sets. On the bottom right corner is the number of times the machine predicted buy, sell, and hold respectively. It made the right prediction 47% of the time, which is certainly better than randomly guessing. 
+On the bottom left corner is the data spread. This is what the data actually looks like before we split it into testing and training sets. On the bottom right corner is the number of times the machine predicted buy, sell, and hold respectively. It made the right prediction 47% of the time, which is certainly better than randomly guessing, but not something we'd bet our money on. (lol)
 
 
 
