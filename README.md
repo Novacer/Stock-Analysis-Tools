@@ -27,7 +27,7 @@ Now we get to the fun part.
 
 * See [here](http://www.investopedia.com/terms/c/correlation.asp) if you want an explanation on what correlation is used for in finance.
 
-The "Make Correlation Matrix Feature" will begin by prompting the user for an index to analyze, as well as the time interval to analyze.
+The "Make Correlation Matrix" feature will begin by prompting the user for an index to analyze, as well as the time interval to analyze.
 Currently, we support the [S&P 500](https://en.wikipedia.org/wiki/List_of_S%26P_500_companies) index and the [NASDAQ 100](http://www.cnbc.com/nasdaq-100/) index.
 
 ![ScreenShot](https://user-images.githubusercontent.com/29148427/28300189-aacce1ca-6b32-11e7-9341-7fe8c030811d.jpg)
