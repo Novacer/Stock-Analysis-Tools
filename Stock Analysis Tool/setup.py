@@ -2,12 +2,12 @@ from cx_Freeze import setup, Executable
 import os
 import scipy
 
-os.environ['TCL_LIBRARY'] = r"C:\Users\MARY\AppData\Local\Programs\Python\Python36-32\tcl\tcl8.6"
-os.environ['TK_LIBRARY'] = r"C:\Users\MARY\AppData\Local\Programs\Python\Python36-32\tcl\tk8.6"
+os.environ['TCL_LIBRARY'] = r"C:\Users\USERNAME\AppData\Local\Programs\Python\Python36-32\tcl\tcl8.6"
+os.environ['TK_LIBRARY'] = r"C:\Users\USERNAME\AppData\Local\Programs\Python\Python36-32\tcl\tk8.6"
 
 includes      = ['numpy.core._methods', 'numpy.lib.format', 'matplotlib.backends.backend_tkagg', 'tkinter.filedialog', 'numpy.matlib']
-include_files = [r"C:\Users\MARY\AppData\Local\Programs\Python\Python36-32\DLLs\tcl86t.dll", \
-                 r"C:\Users\MARY\AppData\Local\Programs\Python\Python36-32\DLLs\tk86t.dll"]
+include_files = [r"C:\Users\USERNAME\AppData\Local\Programs\Python\Python36-32\DLLs\tcl86t.dll", \
+                 r"C:\Users\USERNAME\AppData\Local\Programs\Python\Python36-32\DLLs\tk86t.dll"]
 scipy_path = os.path.dirname(scipy.__file__)
 include_files.append(scipy_path)
 
