@@ -6,7 +6,7 @@ While there are certainly many premium softwares that provide such features, we 
 
 To use, download the Stock Analysis Tools folder. After disabling your antivirus, navigate to `files > Tool.exe` and run it. Everything is bundled ready-to-use, so you will not need to have python installed on your system. **Requires an internet connection to function!**
 
-Click [here] for a list of dependencies that this program uses.
+Click [here](https://github.com/Novacer/Stock-Analysis-Tools/blob/master/README.md#list-of-dependencies) for a list of dependencies that this program uses.
 
 ## The Correlation Matrix
 Let's go right into it!
