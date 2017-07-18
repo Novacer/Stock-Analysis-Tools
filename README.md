@@ -4,6 +4,10 @@ A collection of tools for analyzing stock data. Includes: Line charts, candlesti
 This python program provides a multitude of ways for professional and retail traders to analyze and visualize large quantities of market data.
 While there are certainly many premium softwares that provide such features, we instead aim to supply the user with the same tools at no additional cost.
 
+To use, download the Stock Analysis Tools folder. After disabling your antivirus, navigate to `files > Tool.exe` and run it. Everything is bundled ready-to-use, so you will not need to have python installed on your system. **Requires an internet connection to function!**
+
+Click [here] for a list of dependencies that this program uses.
+
 ## The Correlation Matrix
 Let's go right into it!
 
@@ -111,3 +115,16 @@ and compile the data in ten day intervals. The result produces the very familiar
 
 ![ScreenShot](https://user-images.githubusercontent.com/29148427/28299721-bd44534a-6b2f-11e7-983c-82338a470c76.jpg)
 
+# List of Dependencies
+
+(These have already been included in the `files` folder, so you **DO NOT** need to download them on your own)
+* datetime
+* tkinter
+* matplotlib
+* pandas
+* fix_yahoo_finance
+* os
+* pickle
+* numpy
+* collections.Counter
+* sklearn
