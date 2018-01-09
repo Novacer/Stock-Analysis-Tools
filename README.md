@@ -69,6 +69,10 @@ In reality, these particular definitions need to be tuned for each individual ma
 
 It follows, then, that our feature set will be the actual daily percentage change of the company's stock prices. For example, a percentage increase of <2% during a seven day interval (the input/feature) would map to the action taken of "buy" (the output/label). 
 
+### Our Strategy
+
+The strategy that I am using here is that I will feed to the machine ALL of the percent changes of ALL of the stocks in the entire index, and tell it that this huge data set maps to a buy/sell/hold as per our above definition for our SINGLE stock. In other words, the machine looks at the daily percentage change all of the stocks in the index of that week, and based off of this data it determines whether our particular ticker will increase or decrease. The theory here is that individual stocks are correlated to the market, so we want to use machine learning to try to recognize these patterns. For example, if we wanted to predict the prices for Apple (AAPL), we are using the ENTIRE index to do our prediction, not looking just at AAPL's historical prices.
+
 We will now select the appropriate model for our machine learning algorithm.
 
 ### To shuffle or not to shuffle?
