@@ -81,7 +81,7 @@ During the creation of this algorithm the biggest dilemma for me was whether or 
 
 At first this may seem like a silly question. *Why would anyone what to shuffle up the chronological order?* Indeed, it may seem absurd to potentially use the data from 2017 to predict the prices of 2016. That just makes no sense.
 
-At the same time, though, it may not be the best decision to use the data from 2014 to predict the prices of 2017. Certainly, global events, investor confidence, market conditions, and relationships between different companies are changing constantly. So there is no guaruntee that the patterns of the past will still apply in the future. It turns out that for longer, *more general* models, shuffling the data may actually yield more accurate predictions! However, for shorter intervals with more frequent data (i.e. minute prices), a TSS is more appropriate.
+At the same time, though, it may not be the best decision to use the data from 2016 to predict the prices of 2017. Certainly, global events, investor confidence, market conditions, and relationships between different companies are changing constantly. So there is no guaruntee that the patterns of the past will still apply in the future. It turns out that for longer, *more general* models, shuffling the data may actually yield more accurate predictions! However, for shorter intervals with more frequent data (i.e. minute prices), a TSS is more appropriate.
 
 (In this github version we have included only the TimeSeriesSplit)
 
